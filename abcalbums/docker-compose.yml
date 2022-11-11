@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  abcalbums:
+    image: ${DOCKER_REGISTRY-}abcalbums
+    build:
+      context: .
+      dockerfile: abcalbums/Dockerfile
+    
