@@ -15,7 +15,7 @@ namespace abcalbums.Controllers
         public class CupsController : ControllerBase
         {
 
-            [HttpGet("swap")]
+            [HttpGet("cups/swap")]
             public object Swap([FromBody] IEnumerable<string> SwapCommands)
             {
                 // The ball starts in the position of 'B'
