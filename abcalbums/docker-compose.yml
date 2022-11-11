@@ -5,5 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}abcalbums
     build:
       context: .
-      dockerfile: abcalbums/Dockerfile
-    
+      dockerfile: Dockerfile
